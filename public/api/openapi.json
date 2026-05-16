@@ -2,7 +2,51 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Eurojackpot Static API",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "Static JSON API generated from the LOTTO Bayern Eurojackpot archive."
   },
-  "paths": {}
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "paths": {
+    "/api/latest.json": {
+      "get": {
+        "summary": "Latest Eurojackpot draw"
+      }
+    },
+    "/api/draws.json": {
+      "get": {
+        "summary": "All Eurojackpot draws since 2022-03-25"
+      }
+    },
+    "/api/draws.csv": {
+      "get": {
+        "summary": "All Eurojackpot draws as CSV"
+      }
+    },
+    "/api/stats.json": {
+      "get": {
+        "summary": "Frequency statistics"
+      }
+    },
+    "/api/by-date/{date}.json": {
+      "get": {
+        "summary": "Draw by ISO date",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            },
+            "example": "2026-05-15"
+          }
+        ]
+      }
+    }
+  }
 }

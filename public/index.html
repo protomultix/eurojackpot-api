@@ -4,16 +4,30 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Eurojackpot Static API</title>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; background: #f7f7fb; color: #16181d; }
+    main { max-width: 880px; margin: 0 auto; padding: 48px 20px; }
+    .card { background: white; border: 1px solid #e7e7ef; border-radius: 20px; padding: 24px; box-shadow: 0 10px 30px rgba(20, 20, 40, .06); }
+    code { background: #f0f1f6; padding: 2px 6px; border-radius: 8px; }
+    li { margin: 10px 0; }
+    a { color: #2456d6; }
+  </style>
 </head>
 <body>
-  <h1>Eurojackpot Static API</h1>
-  <p>Run the GitHub Action to generate fresh data.</p>
-  <ul>
-    <li><a href="api/latest.json">/api/latest.json</a></li>
-    <li><a href="api/draws.json">/api/draws.json</a></li>
-    <li><a href="api/draws.csv">/api/draws.csv</a></li>
-    <li><a href="api/stats.json">/api/stats.json</a></li>
-    <li><a href="api/openapi.json">/api/openapi.json</a></li>
-  </ul>
+  <main>
+    <div class="card">
+      <h1>Eurojackpot Static API</h1>
+      <p><strong>Latest draw:</strong> 15.05.2026: 1, 36, 33, 37, 32 + Euro 7, 12</p>
+      <h2>Endpoints</h2>
+      <ul>
+        <li><a href="api/latest.json"><code>/api/latest.json</code></a> — latest draw</li>
+        <li><a href="api/draws.json"><code>/api/draws.json</code></a> — all draws</li>
+        <li><a href="api/draws.csv"><code>/api/draws.csv</code></a> — CSV export</li>
+        <li><a href="api/stats.json"><code>/api/stats.json</code></a> — number frequencies</li>
+        <li><a href="api/openapi.json"><code>/api/openapi.json</code></a> — OpenAPI schema</li>
+      </ul>
+      <p>Data source: LOTTO Bayern. Data is provided without warranty.</p>
+    </div>
+  </main>
 </body>
 </html>
