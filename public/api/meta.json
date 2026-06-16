@@ -1,9 +1,9 @@
 {
   "source_name": "LOTTO Bayern Eurojackpot Archiv",
   "source_url": "https://www.lotto-bayern.de/static/gamebroker_2/de/download_files/archiv_eurojackpot.zip",
-  "generated_at": "2026-06-12T21:14:11+00:00",
+  "generated_at": "2026-06-16T22:01:12+00:00",
   "start_date": "2022-03-25",
-  "total_draws": 441,
-  "latest_date": "2026-06-12",
+  "total_draws": 442,
+  "latest_date": "2026-06-16",
   "disclaimer": "Alle Angaben ohne Gewähr. This static API is not affiliated with LOTTO Bayern."
 }
