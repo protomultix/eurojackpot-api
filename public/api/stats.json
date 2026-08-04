@@ -1,19 +1,19 @@
 {
   "source_name": "LOTTO Bayern Eurojackpot Archiv",
   "source_url": "https://www.lotto-bayern.de/static/gamebroker_2/de/download_files/archiv_eurojackpot.zip",
-  "generated_at": "2026-07-31T20:42:24+00:00",
+  "generated_at": "2026-08-04T20:51:40+00:00",
   "start_date": "2022-03-25",
-  "total_draws": 455,
-  "latest_date": "2026-07-31",
+  "total_draws": 456,
+  "latest_date": "2026-08-04",
   "disclaimer": "Alle Angaben ohne Gewähr. This static API is not affiliated with LOTTO Bayern.",
   "date_range": {
     "from": "2022-03-25",
-    "to": "2026-07-31"
+    "to": "2026-08-04"
   },
   "main_number_frequency": {
     "1": 49,
     "2": 50,
-    "3": 42,
+    "3": 43,
     "4": 45,
     "5": 36,
     "6": 47,
@@ -27,7 +27,7 @@
     "14": 44,
     "15": 42,
     "16": 53,
-    "17": 58,
+    "17": 59,
     "18": 50,
     "19": 35,
     "20": 55,
@@ -40,12 +40,12 @@
     "27": 44,
     "28": 41,
     "29": 46,
-    "30": 52,
+    "30": 53,
     "31": 44,
     "32": 40,
     "33": 35,
     "34": 53,
-    "35": 51,
+    "35": 52,
     "36": 40,
     "37": 55,
     "38": 39,
@@ -53,7 +53,7 @@
     "40": 40,
     "41": 52,
     "42": 41,
-    "43": 40,
+    "43": 41,
     "44": 39,
     "45": 53,
     "46": 44,
@@ -63,7 +63,7 @@
     "50": 41
   },
   "euro_number_frequency": {
-    "1": 76,
+    "1": 77,
     "2": 70,
     "3": 88,
     "4": 66,
@@ -74,7 +74,7 @@
     "9": 73,
     "10": 76,
     "11": 65,
-    "12": 82
+    "12": 83
   },
   "hot_main_numbers": [
     11,
@@ -82,17 +82,17 @@
     20,
     37,
     21,
+    30,
     45,
     34,
     16,
-    23,
-    41
+    23
   ],
   "hot_euro_numbers": [
     5,
     3,
     12,
-    6,
-    7
+    1,
+    6
   ]
 }
