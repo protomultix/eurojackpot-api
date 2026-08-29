@@ -1,12 +1,44 @@
 {
   "source_name": "LOTTO Bayern Eurojackpot Archiv",
   "source_url": "https://www.lotto-bayern.de/static/gamebroker_2/de/download_files/archiv_eurojackpot.zip",
-  "generated_at": "2026-08-25T19:56:09+00:00",
+  "generated_at": "2026-08-29T02:23:41+00:00",
   "start_date": "2022-03-25",
-  "total_draws": 461,
-  "latest_date": "2026-08-21",
+  "total_draws": 463,
+  "latest_date": "2026-08-28",
   "disclaimer": "Alle Angaben ohne Gewähr. This static API is not affiliated with LOTTO Bayern.",
   "draws": [
+    {
+      "date": "2026-08-28",
+      "date_de": "28.08.2026",
+      "weekday": "Friday",
+      "main_numbers": [
+        45,
+        34,
+        39,
+        23,
+        49
+      ],
+      "euro_numbers": [
+        1,
+        4
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "date_de": "25.08.2026",
+      "weekday": "Tuesday",
+      "main_numbers": [
+        7,
+        4,
+        50,
+        48,
+        5
+      ],
+      "euro_numbers": [
+        5,
+        4
+      ]
+    },
     {
       "date": "2026-08-21",
       "date_de": "21.08.2026",
