@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-16",
-  "date_de": "16.10.2026",
-  "weekday": "Friday",
+  "date": "2026-10-20",
+  "date_de": "20.10.2026",
+  "weekday": "Tuesday",
   "main_numbers": [
-    24,
-    45,
-    29,
-    25,
-    12
+    5,
+    38,
+    32,
+    16,
+    34
   ],
   "euro_numbers": [
     9,
-    1
+    8
   ]
 }
